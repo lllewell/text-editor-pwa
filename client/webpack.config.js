@@ -31,9 +31,11 @@ module.exports = () => {
         short_name: 'Editor',
         description: 'Keep track of text edits!',
         background_color: '#272822',
+        display: 'standalone',
         theme_color: '#272822',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
